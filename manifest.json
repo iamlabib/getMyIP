@@ -1,0 +1,25 @@
+{
+  "name": "Get My IP",
+  "version": "1.0",
+  "description": "Gets your public IP",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "pages/popup.html",
+    "default_icon": {
+      "16": "images/laptop.png",
+      "32": "images/laptop-32.png",
+      "48": "images/laptop-48.png",
+      "128": "images/laptop-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/laptop.png",
+    "32": "images/laptop-32.png",
+    "48": "images/laptop-48.png",
+    "128": "images/laptop-128.png"
+  },
+  "manifest_version": 2
+}
